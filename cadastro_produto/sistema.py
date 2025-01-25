@@ -28,8 +28,6 @@ while True:
             print(f'opção invalida')
             time.sleep(2)
             os.system('clear') or None
-        
-        
     else:
         os.system('clear') or None
         break
