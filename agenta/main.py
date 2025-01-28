@@ -56,7 +56,8 @@ def main():
                 conta.delete(email)
                 time.sleep(5)
                 os.system('clear') or None
-
+            else:
+                os.system('clear') or None
 
         else:
             break
