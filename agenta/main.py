@@ -44,6 +44,19 @@ def main():
                     print(conta.findByEmail(email))
                 time.sleep(5)
                 os.system('clear') or None
+            elif op == 3:
+                print("====== Update contatos ========")
+                email = input("Digite o email: ")
+                conta.update(email)
+                time.sleep(5)
+                os.system('clear') or None
+            elif op == 4:
+                print("====== Delete contatos ========")
+                email = input("Digite o email: ")
+                conta.delete(email)
+                time.sleep(5)
+                os.system('clear') or None
+
 
         else:
             break
